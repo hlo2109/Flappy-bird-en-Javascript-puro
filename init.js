@@ -142,7 +142,7 @@ function iniciar(){
 } 
 // Finalizar el juego
 function final(){ 
-    location.href = "/FlappyBird/";
+    location.href = "/";
     sessionStorage.setItem('puntos', cuentaPuntos);
     iniciaJuego = false;
     finDelJuego = true;
