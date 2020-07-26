@@ -1,0 +1,61 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contJuego{
+    width: 500px;
+    height: 500px;
+    border:2px solid #333;
+    position: relative;
+    overflow: hidden;
+}
+.jugador{
+    width:50px;
+    height:50px;
+    position: absolute;
+    left: 20%;    
+    background: #333; 
+} 
+.obstaculo{
+    background-color: blueviolet;
+    width: 60px;
+    position: absolute; 
+}
+.obstaculo.top{
+    top: 0px;
+}
+.obstaculo.bottom{
+    bottom: 0px;
+} 
+.suelo{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.puntos{
+    background: yellow;
+    padding: 10px;
+    font-weight: bold; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.pantalla{ 
+    background: #333;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}

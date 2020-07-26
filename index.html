@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy bird: Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Presiona Flecha arriba , espacio o w para empezar</p>
+    
+    <div class="contJuego">
+        <div class="puntos">0</div>
+        <div class="jugador"></div>
+        <div class="suelo"></div> 
+        <div class="pantalla inigame">
+            <button onclick="iniciar()">Iniciar</button>
+        </div>
+        <div class="pantalla puntosanteriores">
+            <div>
+                <div class="recordpuntos"></div>
+                <button onclick="iniciar()">Iniciar nuevo juego</button>
+            </div>
+        </div>
+    </div>
+    <script src="init.js"></script>
+</body>
+</html>
