@@ -142,7 +142,7 @@ function iniciar(){
 } 
 // Finalizar el juego
 function final(){ 
-    location.href = "/";
+    location.href = "/Flappy-bird-en-Javascript-puro/";
     sessionStorage.setItem('puntos', cuentaPuntos);
     iniciaJuego = false;
     finDelJuego = true;
